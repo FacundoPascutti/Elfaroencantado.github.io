@@ -814,18 +814,30 @@ body {
     transition-property: text-shadow;
     transition-duration: .5s;
 }
+.ig a {
+    text-decoration: none;
+    color: white;
+}
 .tw {
     margin-right: 20px;
     margin-left: 20px;
     border-bottom: 3px solid rgb(218, 178, 3);
     transition-property: text-shadow;
     transition-duration: .5s;
-}   
+}
+.tw a {
+    text-decoration: none;
+    color: white;
+}
 .fb {
     margin-left: 20px;
     border-bottom: 3px solid rgb(218, 178, 3);
     transition-property: text-shadow;
     transition-duration: .5s;
+}
+.fb a {
+    text-decoration: none;
+    color: white;
 }
 .ig:hover {
     text-shadow: 1px 1px 10px white;
