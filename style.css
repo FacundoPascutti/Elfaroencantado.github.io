@@ -274,7 +274,7 @@ body {
 
 
 .banner-intermedio {
-    width: 2114px;
+    width: 100dvw;
     height: 500px;
     background-size: cover;
     background-image: radial-gradient(transparent, black 80%), url(Captura\ de\ pantalla\ 2024-05-24\ 232504.png);
@@ -640,7 +640,7 @@ body {
 /*------------BANNER2------------*/
 
 .banner-intermedio2 {
-    width: 2114px;
+    width: 100dvw;
     height: 500px;
     background-size: cover;
     background-image: radial-gradient(transparent, #0e0e0e 80%), url(restaurante\ banner.webp);
