@@ -864,6 +864,9 @@ body {
     background-color: rgba(206, 206, 206, 0.329);
     border-color: rgb(218, 178, 3);
 }
+.developed-p:hover {
+    color: wheat;
+}
 
 /*------------FOOTER QUERIES------------*/
 
@@ -888,5 +891,8 @@ body {
     }
     .footer-up {
         margin-left: 0px;
+    }
+    .developed {
+        margin-top: 50px;
     }
 }
