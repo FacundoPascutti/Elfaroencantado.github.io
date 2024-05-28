@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleform.css">
+    <title>Formulario de reserva</title>
+</head>
+<body>
+    <form class="formulario">
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Juan">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Lopez">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@gmail.com">
+        </div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione su tipo de cena</option>
+            <option value="1">Buena Cena</option>
+            <option value="2">Cena dorada</option>
+            <option value="3">Cena Royal</option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Selecciona el horario</option>
+            <option value="1">20:30</option>
+            <option value="2">21:00</option>
+            <option value="3">21:30</option>
+            <option value="4">22:00</option>
+            <option value="5">22:30</option>
+            <option value="6">23:00</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</body>
+</html>

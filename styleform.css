@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: linear-gradient( #0009, #0009), url(802429970_236832544_1706x960.webp);
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 700px;
+    border: 6px groove black;
+    box-shadow: 1px 1px 10px rgb(216, 185, 46);
+    margin: auto;
+}
+.mb-3 {
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.mb-3 input {
+    font-size: 15px;
+    padding-left: 0px;
+    width: 550px;
+    height: 35px;
+    box-shadow: 1px 1px 10px black;
+}
+select {
+    margin-right: 0px;
+    margin-top: 50px;
+
+}
+.form-select {
+    font-size: 20px;
+    padding-left: 10px;
+    width: 552px;
+    height: 40px;
+    box-shadow: 1px 1px 10px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(216, 185, 46);
+    border: 4px groove black;
+    box-shadow: 1px 1px 10px rgb(218, 178, 3);
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    transition-property: background, box-shadow;
+    transition-duration: .5s;
+}
+button:hover {
+    background-color: rgb(214, 175, 0);
+    box-shadow: 1px 1px 12px rgb(214, 175, 0);
+}
