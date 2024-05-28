@@ -91,6 +91,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
 }
+.reservar a {
+    text-decoration: none;
+    color: white;
+}
 .reservar:hover {
     text-shadow: 1px 1px 12px rgb(218, 178, 3);
     box-shadow: 1px 1px 12px rgb(218, 178, 3);
@@ -792,6 +796,10 @@ body {
     transition-property: background,box-shadow;
     transition-duration: .5s;
     box-shadow: 1px 1px 8px rgb(218, 178, 3);
+}
+.footer-button button a {
+    text-decoration: none;
+    color: black;
 }
 .footer-button:hover button {
     background-color: rgb(221, 189, 44);
